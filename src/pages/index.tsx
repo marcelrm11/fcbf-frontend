@@ -20,9 +20,7 @@ export default function Home() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch(
-          `https://jobarcelonanestle.herokuapp.com/api/v1/teams`
-        );
+        const response = await fetch(`/api/test-team`);
         const data = await response.json();
         console.log(data);
         setTeams(data.data);
