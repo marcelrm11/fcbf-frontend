@@ -20,7 +20,7 @@ export default function Home() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch(`/api/test-team`);
+        const response = await fetch(`/api/test-list-teams`);
         const data = await response.json();
         console.log(data);
         setTeams(data.data);
