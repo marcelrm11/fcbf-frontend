@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 2rem;
+  min-height: 10vh;
+  border-bottom: 1px solid var(--black-blue);
+}
+.header a {
+  margin: 0;
+}
